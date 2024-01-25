@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+    </head>
+
+    <body>
+        <a-scene>
+            <a-assets>
+                <!-- <audio id="October" src= "October.mp3" autoplay="true"> </audio> -->
+                <img id="goreNRM" src="./Gore/Gore_normal.png">
+                <img id="goreAL" src="./Gore/Gore_albedo.png">
+                <img id="goreAO" src="./Gore/Gore_ao.png">
+                <img id="goreDISP" src="./Gore/Gore_height.png">
+          
+
+
+                <img id="ScifiNRM" src="./Scifi/Scifi_normal.png">
+                <img id="ScifiAL" src="./Scifi/Scifi_albedo.png">
+                <img id="ScifiAO" src="./Scifi/Scifi_ao.png">
+                <img id="ScifiDISP" src="./Scifi/Scifi_height.png">
+       
+
+                <img id="rockNRM" src="./Rock/rock_Normal.jpg">
+                <img id="rockAL" src="./Rock/rock_Albedo.jpg">
+                <img id="rockAO" src="./Rock/rock_AO.jpg">
+                <img id="rockDISP" src="./Rock/rock_Displacement.jpg">
+           
+                
+
+            </a-assets>
+            
+
+
+            <!-- MURS -->
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 -0.5" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 -0.5" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 0" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 0" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 0.5" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 0.5" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 -1" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 -1" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 -1.75" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 -1.75" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1 1 -1.5" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1 1 -1.5" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.25 1 -1" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.25 1 -1" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="1.5 1 0" scale="2 2 1" material="shader:standard; repeat: 2 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="1.5 1 0" scale="2 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.75 1 0" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.75 1 0" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="1 1 -0.25" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="1 1 -0.25" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.25 1 0.5" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.25 1 0.5" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.25 1 0.5" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.25 1 0.5" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="1 1 1" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="1 1 1" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+            
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0.5 1 1" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0.5 1 1" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0 1 1.5" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0 1 1.5" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 0.5" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 0.5" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 1.25" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 1.25" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 -0.75" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 -0.75" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-0.5 1 -1" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-0.5 1 -1" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0 1 -1.25" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0 1 -1.25" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1 1 -1.25" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1 1 -1.25" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 -1.75" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 -1.75" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 -1.75" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-0.5 1 -1.75" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+            
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.25 1 -1.5" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.25 1 -1.5" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.25 1 -0.5" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.25 1 -0.5" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1.5 1 -1" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1.5 1 -1" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 1.75" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="0.5 1 1.75" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0.75 1 0" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0.75 1 0" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1 1 0.5" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1 1 0.5" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1 1 1.25" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1 1 1.25" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.25 1 1.5" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.25 1 1.5" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1.5 1 1" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-1.5 1 1" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.5 1 0" scale="1 2 1" material="shader:standard; repeat: 1 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="-1.5 1 0" scale="1 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.75 1 1.5" scale="0.5 2 1" material="shader:standard; repeat: 0.5 2; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="1.75 1 1.5" scale="0.5 2 1" material="shader:standard; repeat: 1 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="2 1 -0.25" scale="3.5 2 1" material="shader:standard; repeat: 3.5 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="2 1 -0.25" scale="3.5 2 1" material="shader:standard; repeat: 4 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-2 1 0" scale="4 2 1" material="shader:standard; repeat: 4 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 90 0" position="-2 1 0" scale="4 2 1" material="shader:standard; repeat: 4 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 -2" scale="4 2 1" material="shader:standard; repeat: 4 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 -2" scale="4 2 1" material="shader:standard; repeat: 4 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+            <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 2" scale="4 2 1" material="shader:standard; repeat: 4 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: double"></a-entity>
+            <!-- <a-entity id="mur1" geometry="primitive: plane" rotation="0 0 0" position="0 1 2" scale="4 2 1" material="shader:standard; repeat: 4 1; normalMap:#rockNRM; src: #rockAL; ambientOcclusionMap:#rockAO; side: back"></a-entity> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+            <!-- SOLS -->
+            <a-entity geometry="primitive: plane" rotation="-90 0 0" position="" visible="" id="SOL" scale="4 4 0.00001" material="shader:standard; repeat: 2 2; normalMap:#ScifiNRM; src: #ScifiAL; ambientOcclusionMap:#ScifiAO; displacementMap:#ScifiDISP ; metalness : 1 ;side: front"></a-entity>
+
+
+                     <!-- SOUND -->
+         <!-- <a-entity 
+       
+            position="0 6.11393 0" 
+            color="#000000"
+            sound="src: url(October); 
+             autoplay=true;
+             volume: 1;
+             refDistance: 1;
+             rollofFactor: 1">
+           <a-entity 
+               sound="src: url(October); autoplay: true">
+           </a-entity> -->
+
+            <a-sky 
+                color="#808080">
+            </a-sky>
+        </a-scene>
+    </body>
+</html>
